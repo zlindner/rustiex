@@ -1,3 +1,7 @@
+mod lib;
+
+use lib::IEX;
+
 fn main() {
-    println!("Hello, world!");
+    let iex_client = IEX::new(true);
 }

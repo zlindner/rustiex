@@ -5,3 +5,4 @@ authors = ["zlindner <zach.lindner@hotmail.com>"]
 edition = "2018"
 
 [dependencies]
+reqwest = { version = "0.10", features = ["json"] }
